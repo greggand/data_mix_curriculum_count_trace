@@ -1,11 +1,11 @@
-# ocrmdoc_jd284
+# data_mix_curriculum_count_trace
 
 **追溯OCR 文档理解工程师·训练数据配比与课程学习里每一份贡献来自哪里。**
 
-`ocrmdoc_jd284` —— 统计各来源片段的贡献量与占比，标出OCR 文档理解工程师·训练数据配比与课程学习上最主要的来源
+`data_mix_curriculum_count_trace` —— 统计各来源片段的贡献量与占比，标出OCR 文档理解工程师·训练数据配比与课程学习上最主要的来源
 
 - 零依赖，Python 3.10+ 标准库即可运行
-- 单文件，`ocrmdoc_jd284.py` 拷走就能用
+- 单文件，`data_mix_curriculum_count_trace.py` 拷走就能用
 - 不联网、不写文件
 
 ## 对应的岗位
@@ -23,16 +23,16 @@
 零依赖，Python 3.10+ 即可：
 
 ```bash
-pip install greggand-ocrmdoc_jd284
+pip install greggand-data_mix_curriculum_count_trace
 ```
 
 装完直接用命令名调用：
 
 ```bash
-ocrmdoc_jd284 --help
+data_mix_curriculum_count_trace --help
 ```
 
-也可以不用安装，直接把 `ocrmdoc_jd284.py` 拷走用——它只依赖标准库。
+也可以不用安装，直接把 `data_mix_curriculum_count_trace.py` 拷走用——它只依赖标准库。
 
 ## 为什么需要它
 
@@ -47,9 +47,9 @@ ocrmdoc_jd284 --help
 ## 用法
 
 ```bash
-python ocrmdoc_jd284.py --file input.txt
-python ocrmdoc_jd284.py --text "示例内容"
-python ocrmdoc_jd284.py --file input.txt --json
+python data_mix_curriculum_count_trace.py --file input.txt
+python data_mix_curriculum_count_trace.py --text "示例内容"
+python data_mix_curriculum_count_trace.py --file input.txt --json
 ```
 
 加 `--json` 可以拿到机器可读的结果，便于接到流水线里。
@@ -62,7 +62,7 @@ python ocrmdoc_jd284.py --file input.txt --json
 ## 跑测试
 
 ```bash
-python test_ocrmdoc_jd284.py
+python test_data_mix_curriculum_count_trace.py
 ```
 
 测试用独立的断言与临时数据，不污染工作目录。
@@ -70,7 +70,7 @@ python test_ocrmdoc_jd284.py
 ## 来源与参考
 
 - Python 标准库文档：<https://docs.python.org/3/>
-- GitHub 仓库：<https://github.com/greggand/ocrmdoc_jd284>
+- GitHub 仓库：<https://github.com/greggand/data_mix_curriculum_count_trace>
 
 ---
 
@@ -79,7 +79,7 @@ python test_ocrmdoc_jd284.py
 greggand 做OCR 文档理解工程师·训练数据配比与课程学习相关的问题，方向对标智谱AI的架构OCR 文档理解工程师岗位。这个工具先替你回答一个具体问题，再谈别的。
 
 - 个人主页：<https://greggand.github.io>
-- 仓库：<https://github.com/greggand/ocrmdoc_jd284>
+- 仓库：<https://github.com/greggand/data_mix_curriculum_count_trace>
 
 ## 许可
 
